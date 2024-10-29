@@ -1,7 +1,8 @@
 import React from "react";
-import "./navbar.css";
-import LogoImage from "../assets/logo.png";
-import { ReactComponent as SearchIcon } from "../assets/search-icon.svg";
+import "./navbar.css"; // Import the CSS file
+import LogoImage from "../images/logo.png"; // Updated path
+import { ReactComponent as SearchIcon } from "../images/search-icon.svg"; // Updated path
+
 
 function Navbar() {
     const onSubmit = (e) => {
