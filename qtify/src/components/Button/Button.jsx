@@ -1,8 +1,8 @@
 import React from "react";
-import "./Button.css"; // Importing the global CSS file
+import "./Button.css";
 
 function Button({ children }) {
-    return <button className="button">{ children }</button>; // Use global class
+    return <button className="button">{ children }</button>; 
 }
 
 export default Button;
