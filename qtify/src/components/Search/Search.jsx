@@ -1,5 +1,5 @@
 import React from "react";
-import "./Search.css"; 
+import "./Search.css";
 import { ReactComponent as SearchIcon } from "../../assets/search-icon.svg";
 
 function Search({ placeholder }) {
@@ -7,13 +7,13 @@ function Search({ placeholder }) {
         e.preventDefault();
     }
     return (
-        <form className="wrapper" onSubmit={onSubmit}>
+        <form className="searchWrapper" onSubmit={onSubmit}>
             <input className="search" required placeholder={placeholder} />
             <button className="searchButton" type="submit">
-                <SearchIcon />
+                <SearchIcon/>
             </button>
         </form>
-    );
+    )
 }
 
 export default Search;

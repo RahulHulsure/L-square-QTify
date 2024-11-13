@@ -6,15 +6,4 @@
     align-items: center;
     text-align: center;
     gap: 30px;
-    margin-top: 220px;
-    width: 100%;
-}
-
-.hero-content {
-    color: var(--color-white);
-}
-
-.hero-image img {
-    display: block;
-    margin: 0 auto;
 }
